@@ -3,35 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--configura a codifigação de caracteres do documento, UTF-8 é uma codificação 
+    de caracteres que pode representar quase todos símbolos do mundo.-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Isso permite que a página seja compatível com a internet explorer-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <!-- A tag meta viewport, que é essencial para o design responsivo de sites.
+     Define a largura da página para ser igual à largura da tela do dispositivo.
+     Um valor de 1.0 significa que a página será exibida sem zoom. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Portfólio</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Deferindo a barra de navegação -->
     <div class="navegacao">
-        <div id="cabecalho">
-            <h1>Olá, Meu nome é Matheus</h1>
-            <p class="texto">Sou iniciante em programação, atualmente aprendendo HTML e JavaScript.</p>
+
+
+        <div class="titulo">
+            Portfolio
         </div>
-        <div>
-            <img src="image3.png" alt="Imagem representativa">
-        </div>
-        <div id="titulo">
-            Portfólio
-        </div>
+
         <div id="menu">
             <ul>
                 <li><a href="#services">Meus Serviços</a></li>
                 <li><a href="#contact">Contato</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#portfoliotitle">Portfolio</a></li>
             </ul>
         </div>
+
     </div>
+
+    <div class="navegacao">
+        <div id="cabecalhocta">
+            <h1>Olá, meu nome é Matheus</h1>
+            <p class="texto">Sou um inicante em programação, atualmente aprendendo JavaScript, HTML e CSS.</p>
+
+            <a id="buttoncta" href="#services">Meus Serviços</a>
+
+        </div>
+
+        <div id="cabecalhoimg">
+            <img src="img\image 3.png" alt="Imagem representativa">
+        </div>
+    </div>
+
+    <div class="navegacao" id="clientes">
+        <div id="cabecalhoclientexto">
+            <p>Conheça<br>
+                meus clientes</p>
+            </div>
+
+        <div class="cabecalhoclientelogo">
+            <img src="img/apple-11 1.png">
+            <img src="img/slack-2 1.png">
+            <img src="img/spotify-1 1.png">
+        </div>
+    </div>
+
+        <div class="navegacao">
+            <div id="servicos">
+                <h2 id="red">Conheça</h2>
+                <h1 id="black">Meus Serviços</h1>
+            </div>
+
 </body>
 
 </html>
