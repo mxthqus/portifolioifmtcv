@@ -154,3 +154,23 @@ a {
    line-height: 54px;
    text-align: center;
 }
+
+.gray {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #070F18;
+    text-align: center;
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #070F18;
+    text-align: center;
+}
